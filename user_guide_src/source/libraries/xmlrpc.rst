@@ -297,7 +297,7 @@ The Client
 ----------
 
 Using a text editor, create a controller called xmlrpc_client.php. In
-it, place this code and save it to your applications/controllers/
+it, place this code and save it to your application/controllers/
 folder::
 
 	<?php
@@ -338,7 +338,7 @@ The Server
 ----------
 
 Using a text editor, create a controller called xmlrpc_server.php. In
-it, place this code and save it to your applications/controllers/
+it, place this code and save it to your application/controllers/
 folder::
 
 	<?php
@@ -423,7 +423,7 @@ the Server.
 	$parameters = $request->output_parameters();
 	$name = $parameters[0]['name'];
 	$size = $parameters[1]['size'];
-	$size = $parameters[1]['shape'];
+	$shape = $parameters[1]['shape'];
 
 **************************
 XML-RPC Function Reference
